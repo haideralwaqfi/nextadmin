@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5d57c9;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #4f4aad;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+.button:hover:disabled {
+  background-color: rgb(99, 99, 99);
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: var(--bgSoft);
+  padding: 14px;
+  bottom: 0;
+}
+.logo {
+  font-weight: bold;
+}
+.text {
+  font-weight: lighter;
+}
