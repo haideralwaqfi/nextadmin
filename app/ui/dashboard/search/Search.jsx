@@ -13,6 +13,7 @@ function Search({ placeholder }) {
 
   const handleChange = useDebouncedCallback((e) => {
     const params = new URLSearchParams(searchPrams);
+    params.set("page", 1);
     e.target.value && e.target.value.length > 2
       ? params.set("q", e.target.value)
       : params.delete("q");
