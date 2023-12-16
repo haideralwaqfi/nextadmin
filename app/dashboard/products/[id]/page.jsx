@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../../ui/dashboard/products/singleProduct/singleProduct.module.css";
 import Image from "next/image";
 import { updateProduct } from "@/app/lib/actions";
-import { User } from "@/app/lib/modules";
+import { User } from "@/app/lib/models";
 import { fetchProduct } from "@/app/lib/data";
 async function SingleUserPage({ params }) {
   const { id } = params;
